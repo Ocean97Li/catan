@@ -1,0 +1,25 @@
+.grain {
+    background-color: var(--grain);
+}
+
+.iron {
+    background-color: var(--iron);
+}
+
+.wool {
+    background-color: var(--wool);
+}
+
+.wood {
+    background-color: var(--wood);
+}
+
+.clay {
+    background-color: var(--clay);
+}
+
+div {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}

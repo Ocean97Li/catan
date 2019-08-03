@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    background-color: rgb(30, 153, 184);
+    --red:    rgb(161, 56, 56);
+    --blue:   rgb(81, 113, 172);
+    --white:  rgb(255, 248, 233);
+    --orange: rgb(199, 135, 76);
+
+    --grain:  rgb(224, 224, 133);
+    --wool:   rgba(93, 199, 93);
+    --wood:   rgb(70, 150, 87);
+    --iron:   rgb(113, 138, 116);
+    --clay:   rgb(146, 111, 83);
+
+}
+
+/* Player Colors */

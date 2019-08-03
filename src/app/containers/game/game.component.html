@@ -1,0 +1,14 @@
+<app-dices [dice1]="dices.dice1" [dice2]="dices.dice2"></app-dices>
+<app-prices></app-prices>
+<div>
+  <app-tile *ngFor="let tile of tiles" [tile]="tile"></app-tile>
+  <div *ngIf="borders">
+    <app-border *ngFor="let border of borders" [border]="border"></app-border>
+  </div>
+  <div *ngIf="crossroads">
+      <app-crossroad *ngFor="let crossroad of crossroads" [crossroad]="crossroad"></app-crossroad>
+  </div>
+  <div *ngIf="harbors">
+    <app-harbor *ngFor="let harbor of harbors" [harbor]="harbor"></app-harbor>
+  </div>
+</div>

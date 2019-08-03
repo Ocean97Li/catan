@@ -1,0 +1,18 @@
+<div class="content">
+  <div class="price-container">
+    <div>
+        <app-building [building]="village"></app-building>
+    </div>
+    <div class="price">
+      <app-resource-card *ngFor="let resource of village.price"[resource]="resource"></app-resource-card>
+    </div>
+  </div>
+  <div class="price-container"> 
+    <div>
+        <app-building [building]="city"></app-building>
+    </div>
+    <div class="price">
+      <app-resource-card *ngFor="let resource of city.price"[resource]="resource"></app-resource-card>
+    </div>
+  </div>
+</div>

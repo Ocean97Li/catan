@@ -1,0 +1,22 @@
+.dice1{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3rem;
+    background-color: white;  
+    border-radius: 13.5%
+}
+
+.dice2{
+    margin-left: 0.6rem;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3rem;
+    background-color: white;  
+    border-radius: 13.5%
+}

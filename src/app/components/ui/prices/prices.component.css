@@ -1,0 +1,26 @@
+.content {
+    margin-top: 15px;
+}
+
+.price-container {
+    position: relative;
+    display: flex;
+}
+
+.price-container div {
+    width: 30px;
+    height: 30px;
+}
+
+
+app-building {
+    margin-bottom: 15px;
+}
+
+app-resource-card {
+    margin: 5px 0;
+}
+
+.price {
+    display: flex;
+}

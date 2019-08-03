@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <span class="crossroad {{crossroad.harbor}}" [ngStyle]="coordsToPosition()">
+        <app-building 
+            *ngIf="crossroad.building" 
+            [building]="crossroad.building">
+        </app-building>
+    </span>
+</div>
