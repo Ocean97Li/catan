@@ -1,0 +1,21 @@
+.border {
+    height: 50px;
+    width: 5px;
+    background-color: #ccb684;;
+    display: block;
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(50% - 3px);
+}
+
+.rotate120{
+    transform: rotate(-120deg);
+}
+
+.rotate-120{
+    transform: rotate(120deg);
+}

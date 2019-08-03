@@ -1,0 +1,70 @@
+.village {
+    position: relative;
+    top: 8px;
+    height: 30px;
+}
+.village-chimney {
+    width: 2px;
+    height: 8px;
+    display: block;
+    margin: auto;
+    position: relative;
+    float: right;
+    right: 9px;
+}
+
+.village-roof {
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.village-base {
+    width: 12px;
+    height: 6px;
+    display: block;
+    margin: auto;
+}
+
+.city {
+    position: relative;
+    top: 1px;
+    height: 30px;
+}
+
+.city-base {
+    top: 2px;
+    position: relative;
+    right: 6px;
+    width: 18px;
+    height: 9px;
+    display: block;
+    margin: auto;
+    float: right;
+}
+
+.city-tower {
+    top: 2px;
+    position: relative;
+    right: 4px;
+    width: 10px;
+    height: 4px;
+    display: block;
+    margin: auto;
+}
+
+
+.city-roof {
+    top: 2px;
+    position: relative;
+    right: 4px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 9px solid transparent;
+    margin: auto;
+}

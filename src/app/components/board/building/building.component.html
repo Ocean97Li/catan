@@ -1,0 +1,15 @@
+<div *ngIf="isVillage; else cityTmpl">
+    <div class="village">
+        <div class="village-chimney" [ngStyle]="color()"></div>
+        <div class="village-roof" [ngStyle]="color(true)"></div>
+        <div class="village-base" [ngStyle]="color()"></div>
+    </div>
+</div>
+
+<ng-template #cityTmpl class="city">
+    <div class="city">
+        <div class="city-roof" [ngStyle]="color(true)"></div>
+        <div class="city-tower" [ngStyle]="color()"></div>
+        <div class="city-base" [ngStyle]="color()"></div>
+    </div>
+</ng-template>

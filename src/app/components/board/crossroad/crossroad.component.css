@@ -1,0 +1,45 @@
+.crossroad {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: #ccb684;;
+    display: block;
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    top: calc(50%);
+    left: calc(50%);
+    transform: translate(-50%,-25%)
+}
+
+.harbor-any {
+    border: 1.5px solid white;
+
+}
+
+.harbor-wool {
+    border: 1.5px solid rgba(93, 199, 93);
+
+}
+
+.harbor-iron {
+    border: 1.5px solid rgb(113, 138, 116);
+
+}
+
+.harbor-grain {
+    border: 1.5px solid rgb(224, 224, 133);
+
+}
+
+.harbor-wood {
+    border: 1.5px solid rgb(70, 150, 87);
+
+}
+
+.harbor-clay {
+    border: 1.5px solid  rgb(146, 111, 83);
+
+}

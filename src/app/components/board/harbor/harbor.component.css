@@ -1,0 +1,50 @@
+.harbor {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    top: calc(50%);
+    left: calc(50%);
+    transform: translate(-50%,-25%)
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.harbor-any {
+    background-color: white;
+    color: black;
+}
+
+.harbor-wool {
+    background-color: rgba(93, 199, 93);
+    color: white;
+}
+
+.harbor-iron {
+    background-color: rgb(113, 138, 116);
+    color: white;
+}
+
+.harbor-grain {
+    background-color: rgb(224, 224, 133);
+    color: white;
+}
+
+.harbor-wood {
+    background-color: rgb(70, 150, 87);
+    color: white;
+}
+
+.harbor-clay {
+    background-color:  rgb(146, 111, 83);
+    color: white;
+}
