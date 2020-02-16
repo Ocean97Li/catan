@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  background-color: rgb(30, 153, 184);
+
+  /* Player Colors */
+  --red: rgb(161, 56, 56);
+  --blue: rgb(81, 113, 172);
+  --white: rgb(255, 248, 233);
+  --orange: rgb(199, 135, 76);
+
+  /* Resource Colors */
+  --grain: rgb(224, 224, 133);
+  --wool: rgba(93, 199, 93);
+  --wood: rgb(70, 150, 87);
+  --iron: rgb(113, 138, 116);
+  --clay: rgb(146, 111, 83);
+
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}

@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <div class="hexagon {{ tile.resource }}" [ngStyle]="coordsToPosition()">
+    <div class="center-tile">
+      <div *ngIf="!tile.blocked; else thief" class="dice-number noselect">
+        {{ tile.diceNumber }}
+        <!-- {{tile.coordinates | json }} -->
+      </div>
+      <!-- <ng-template #thief>
+        <div class="thief" cdkDrag></div>
+      </ng-template> -->
+    </div>
+  </div>
+</div>

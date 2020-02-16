@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <span (click)="build.emit(crossroad)" class="crossroad {{crossroad.harbor}}" [ngClass]="{'bigger-crossroad': crossroad.building}" [ngStyle]="coordsToPosition()">
+        <app-building 
+            *ngIf="crossroad.building" 
+            [building]="crossroad.building">
+        </app-building>
+    </span>
+</div>

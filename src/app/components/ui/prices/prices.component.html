@@ -1,0 +1,34 @@
+<div>
+  <div class="price-container">
+    <div>
+        <app-building [building]="village"></app-building>
+    </div>
+    <div class="price">
+      <app-resource-card *ngFor="let resource of (prices.get('village'))"[resource]="resource"></app-resource-card>
+    </div>
+  </div>
+  <div class="price-container"> 
+    <div>
+        <app-building [building]="city"></app-building>
+    </div>
+    <div class="price">
+      <app-resource-card *ngFor="let resource of (prices.get('city'))"[resource]="resource"></app-resource-card>
+    </div>
+  </div>
+  <div class="price-container"> 
+    <div class="street-container">
+       <div class="street" [ngStyle]="getStreetColor()"></div>
+    </div>
+    <div class="price">
+      <app-resource-card *ngFor="let resource of (prices.get('street'))"[resource]="resource"></app-resource-card>
+    </div>
+  </div>
+  <div class="price-container"> 
+      <div class="street-container">
+         <div class="development" [ngStyle]="getStreetColor()">?</div>
+      </div>
+      <div class="price">
+        <app-resource-card *ngFor="let resource of (prices.get('development'))"[resource]="resource"></app-resource-card>
+      </div>
+    </div>
+</div>

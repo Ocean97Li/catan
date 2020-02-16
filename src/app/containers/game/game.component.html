@@ -1,0 +1,19 @@
+<app-dices [dice1]="dices.dice1" [dice2]="dices.dice2"></app-dices>
+<app-prices [prices]="prices" [color]="myColor"></app-prices>
+<div class="board-wrapper">
+  <div class="board" [ngStyle]="{'transform': 'scale(' + calculateScale() + ') perspective(600px) rotateX(0deg)'}">
+    <app-tile *ngFor="let tile of tiles" [tile]="tile"></app-tile>
+    <div *ngIf="borders">
+      <app-border (build)="buildStreet($event)" *ngFor="let border of borders" [border]="border"></app-border>
+    </div>
+    <div *ngIf="crossroads">
+        <app-crossroad (build)="buildBuilding($event)" *ngFor="let crossroad of crossroads" [crossroad]="crossroad"></app-crossroad>
+    </div>
+    <div *ngIf="harbors">
+      <app-harbor *ngFor="let harbor of harbors" [harbor]="harbor"></app-harbor>
+    </div>
+  </div>
+</div>
+<div class="resource-hand-wrapper">
+  <app-resource-hand [resources]="myResources"></app-resource-hand>
+</div>

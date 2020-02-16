@@ -1,0 +1,130 @@
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: white;
+  margin: 28.87px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid white;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid white;
+}
+
+.wrapper {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+}
+
+.dice-number {
+  color: white;
+  cursor: default;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.iron {
+  background-color: var(--iron) !important;
+}
+.iron:before {
+  border-bottom: 28.87px solid var(--iron);
+}
+.iron:after {
+  border-top: 28.87px solid var(--iron);
+}
+
+.wool {
+  background-color: var(--wool) !important;
+}
+
+.wool:before {
+  border-bottom: 28.87px solid var(--wool);
+}
+
+.wool:after {
+  border-top: 28.87px solid var(--wool);
+}
+
+.grain {
+  background-color: var(--grain) !important;
+}
+.grain:before {
+  border-bottom: 28.87px solid var(--grain);
+}
+.grain:after {
+  border-top: 28.87px solid var(--grain);
+}
+
+.wood {
+  background-color: var(--wood) !important;
+}
+.wood:before {
+  border-bottom: 28.87px solid var(--wood);
+}
+.wood:after {
+  border-top: 28.87px solid var(--wood);
+}
+
+.clay {
+  background-color: var(--clay) !important;
+}
+.clay:before {
+  border-bottom: 28.87px solid var(--clay);
+}
+.clay:after {
+  border-top: 28.87px solid var(--clay);
+}
+
+.sea {
+  background-color: rgb(30, 153, 184) !important;
+}
+.sea:before {
+  border-bottom: 28.87px solid rgb(30, 153, 184);
+}
+.sea:after {
+  border-top: 28.87px solid rgb(30, 153, 184);
+}
+
+.desert {
+  background-color: rgb(190, 174, 101) !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.desert:before {
+  border-bottom: 28.87px solid rgb(190, 174, 101);
+}
+.desert:after {
+  border-top: 28.87px solid rgb(190, 174, 101);
+}
+
+.thief {
+  position: relative;
+  z-index: 20;
+  cursor: grab;
+  background-color: #484848;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.thief:active {
+  position: relative;
+  cursor: grabbing;
+}

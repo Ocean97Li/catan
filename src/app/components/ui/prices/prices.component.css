@@ -1,0 +1,46 @@
+:host{
+    position: absolute;
+    left: 0;
+    margin: 15px;
+}
+
+.price-container {
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+
+app-building {
+    margin-bottom: 15px;
+}
+
+app-resource-card {
+    margin: 5px 0;
+}
+
+.price {
+    display: flex;
+    width: 100%;
+}
+
+.street-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.street {
+    width: 20px !important;
+    height: 5px !important;
+}
+
+.development {
+    width: 20px !important;
+    height: 20px !important;
+    text-align: center;
+    color: #b3b3b38f;
+    border: 1px solid #757575;
+    border-radius: 50%;
+}
